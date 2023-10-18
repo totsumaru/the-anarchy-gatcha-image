@@ -6,6 +6,7 @@ export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const username = searchParams.get('username');
   const avatar = searchParams.get('avatar');
+  const point = searchParams.get('point');
 
   return new ImageResponse(
     (
@@ -68,7 +69,7 @@ export async function GET(request: Request) {
           marginTop: "63",
           marginLeft: "710px",
         }}>
-          10
+          {point}
         </div>
       </div>
     ),
