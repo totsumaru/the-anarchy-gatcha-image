@@ -65,7 +65,6 @@ export async function GET(request: Request) {
           width: '100%',
           height: '100%',
           flexDirection: 'column',
-          fontFamily: 'Arial, sans-serif',
         }}
       >
         <div style={{
