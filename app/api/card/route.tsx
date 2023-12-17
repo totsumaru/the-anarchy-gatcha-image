@@ -8,6 +8,7 @@ const goldImageURL = "https://imagedelivery.net/rsXDEToSLF-yJh1Zowhg1g/3441660e-
 const platinumImageURL = "https://imagedelivery.net/rsXDEToSLF-yJh1Zowhg1g/cca4b555-b6fd-41d9-bbe5-d41f90329000/public"
 const diamondImageURL = "https://imagedelivery.net/rsXDEToSLF-yJh1Zowhg1g/987ce784-ff88-464a-8f4b-8a72c143fa00/public"
 const crazyImageURL = "https://imagedelivery.net/rsXDEToSLF-yJh1Zowhg1g/bbe42c2c-9994-4476-390e-e903ae82b100/public"
+const fuckinImageURL = "https://imagedelivery.net/rsXDEToSLF-yJh1Zowhg1g/7d467410-703e-4626-604d-6aae9dc69500/public"
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
@@ -45,7 +46,22 @@ export async function GET(request: Request) {
     case "21" :
     case "22" :
     case "23":
+    case "24":
+    case "25":
+    case "26":
+    case "27":
+    case "28":
+    case "29":
+    case "30":
+    case "31":
+    case "32":
+    case "33":
+    case "34":
+    case "35":
       imageURL = crazyImageURL
+      break
+    case "36":
+      imageURL = fuckinImageURL
       break
     default:
       return new ImageResponse(<></>)
