@@ -61,6 +61,8 @@ export async function GET(request: Request) {
       imageURL = crazyImageURL
       break
     case "36":
+    case "37":
+    case "38":
       imageURL = fuckinImageURL
       break
     default:
