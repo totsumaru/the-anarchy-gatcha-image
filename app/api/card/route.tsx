@@ -8,7 +8,7 @@ const goldImageURL = "https://imagedelivery.net/rsXDEToSLF-yJh1Zowhg1g/3441660e-
 const platinumImageURL = "https://imagedelivery.net/rsXDEToSLF-yJh1Zowhg1g/cca4b555-b6fd-41d9-bbe5-d41f90329000/public"
 const diamondImageURL = "https://imagedelivery.net/rsXDEToSLF-yJh1Zowhg1g/987ce784-ff88-464a-8f4b-8a72c143fa00/public"
 const crazyImageURL = "https://imagedelivery.net/rsXDEToSLF-yJh1Zowhg1g/bbe42c2c-9994-4476-390e-e903ae82b100/public"
-const fuckinImageURL = "https://imagedelivery.net/rsXDEToSLF-yJh1Zowhg1g/7d467410-703e-4626-604d-6aae9dc69500/public"
+const fuckinImageURL = "https://imagedelivery.net/rsXDEToSLF-yJh1Zowhg1g/cdb5df7a-c089-4a80-0393-0ad6a2fa9200/public"
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
